@@ -2,31 +2,31 @@
   {
     "id": "1",
     "title": "Aaj Tak",
-    "url": "https://edge.sariska.io/play/hls/xlnta1gt5cd3ny0n/6b1c7136c7134e19884c242de143c4be.m3u8",
+    "url": "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8",
     "showtitle":"Special Programme"
   },
   {
     "id": "2",
     "title": "Zee News",
-    "url": "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8",
+    "url": "https://abplivetv.akamaized.net/hls/live/2043010/hindi/master.m3u8",
     "showtitle":"Zee Programme"
   },
   {
-    "id": "3",
-    "title": "Good News Today",
-    "url": "https://edge.sariska.io/play/hls/e5pucknfves6vnhg/8e632fea68134928ad5232d1c35754e2.m3u8",
-    "showtitle":"Good Luck Special"
-  },
+      "id": "3",
+      "title": "India Today",
+      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtvhd1/default/andtvhd1.m3u8",
+      "showtitle":"Celebrating Zakir Hussain"
+    },
     {
       "id": "4",
       "title": "Good News Today",
-      "url": "https://spt-sonykal-1-us.lg.wurl.tv/playlist.m3u8",
+      "url": "https://nw18live.cdn.jio.com/bpk-tv/News18_India_NW18_MOB/output01/News18_India_NW18_MOB/DenverIsAlive.m3u8",
       "showtitle":"Good Luck Special"
     },
     {
       "id": "5",
       "title": "Zee Business",
-      "url": "https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/chunklist_b1328000.m3u8",
+      "url": "https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Zeenews/default/index.m3u8",
       "showtitle":"Baat Duniyaki"
     },
 

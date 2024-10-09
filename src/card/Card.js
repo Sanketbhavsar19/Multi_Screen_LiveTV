@@ -39,7 +39,9 @@ const CardsContainer = styled.div`
 
   -webkit-overflow-scrolling: touch; // Enable momentum scrolling on iOS devices
 
-  @media (min-width: 600px) {
+  @media (max-width: 600px) {
+    padding: 0 8px;
+    margin: 0 26px;
     max-width: calc(2 * 160px + 1 * 8px + 40px); // 2 cards for larger mobile devices
   }
 

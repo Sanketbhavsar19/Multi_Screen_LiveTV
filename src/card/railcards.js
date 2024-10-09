@@ -712,6 +712,17 @@ export default function RailCards({ onVideoSelect }) {
     setHoveredIndex(null);
   };
 
+  const RailCards = ({ videos, onVideoSelect }) => {
+    return (
+      <div>
+        {videos.map((video, index) => (
+          <div key={index} onClick={() => onVideoSelect(video)}>
+            {/* Video Card Content */}
+          </div>
+        ))}
+      </div>
+    );
+  };
   return (
     <Container>
       <Title>New TV Channels</Title>

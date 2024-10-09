@@ -7,7 +7,8 @@ import AppsIcon from "@mui/icons-material/Apps";
 const Header = styled.header`
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  // align-items: center;
   padding: 10px 20px;
   background-color: #060606;
   color: white;
@@ -20,17 +21,24 @@ const Header = styled.header`
   font-size: 30px;
 
   @media only screen and (max-width: 64em) {
-    padding: 0.5rem 3rem;
-    font-size: 20px;
+    padding: 0;
+    top: 10px;
+    left: -10px;
+    font-size: 18px;
   }
 
   @media only screen and (max-width: 40em) {
     padding: 0.5rem 1.5rem;
+    left: 4px;
+    top: -5px;
     font-size: 16px;
+    justify-content: space-between;
   }
 
   @media only screen and (min-width: 90em) {
-    padding: 1rem 7rem;
+    padding: 0;
+    // top: 20px;
+    // left: 20px;
   }
 `;
 
@@ -40,8 +48,9 @@ const HeaderLeft = styled.div`
   align-items: center;
 
   a {
-    font-weight: 600;
-    line-height: 1.5;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 3;
     color: white;
     text-decoration: none;
     margin: 0 30px;
@@ -57,7 +66,11 @@ const HeaderLeft = styled.div`
   }
 
   @media only screen and (min-width: 40em) {
-    font-weight: 600;
+    margin: 0 15px;
+    font-weight: 200;
+    font-size: 18px;
+    // gap: -25px;
+    margin-right: -10px;
   }
 `;
 
